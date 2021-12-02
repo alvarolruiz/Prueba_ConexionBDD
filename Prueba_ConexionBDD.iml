@@ -8,5 +8,6 @@
     <content url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar!/" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mssql-jdbc-9.4.0.jre16" level="project" />
   </component>
 </module>
