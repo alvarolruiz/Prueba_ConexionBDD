@@ -59,7 +59,7 @@ public class Main {
 
     }
 
-    public void generarFicheroConfig() {
+    public static void generarFicheroConfig() {
         propiedadesConexion = setProperties();
         FileOutputStream fos= null;
         try {
@@ -79,7 +79,7 @@ public class Main {
         }
     }
 
-    public Properties setProperties(){
+    public static Properties setProperties(){
         Properties propiedadesConexion = new Properties();
         propiedadesConexion.setProperty("driver", DRIVER);
         propiedadesConexion.setProperty("Url", URL);
