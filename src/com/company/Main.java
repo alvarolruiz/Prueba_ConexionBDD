@@ -9,7 +9,7 @@ public class Main {
     private static final String CONSULTA_TABLA_CLIENTES = "SELECT * FROM Personas";
     private static Properties propiedadesConexion=null;
     static String DRIVER = "com.mysql.jdbc.Driver";
-    static String URL = "jdbc:sqlserver://localhost:51916   ";
+    static String URL = "jdbc:sqlserver://localhost:51916";
     static String USUARIO = "alvarolruiz";
     static String CLAVE = "mitesoro99";
 
